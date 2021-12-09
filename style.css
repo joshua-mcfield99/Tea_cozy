@@ -51,6 +51,10 @@ nav a {
     color: seashell;
 }
 
+nav a:hover {
+    color: tan;
+}
+
 .bancontainer {
     height: 700px;
     margin: 0 auto;
@@ -64,6 +68,7 @@ nav a {
     background-repeat: no-repeat;
     height: 700px;
     max-width: 1200px;
+    min-width: 1200px;
     width: 85%;
     margin: 0 auto;
 }
@@ -78,3 +83,81 @@ nav a {
     text-align: center;
 }
 
+.featured {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.teacontainer {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.teacontainer img {
+    width: 300px;
+    height: 200px;
+    margin: 20px 0 0 0;
+}
+
+.teacontainer h4 {
+    margin: 10px;   
+}
+
+.location {
+    position: relative;
+    background-image: url(/Images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    margin: 0 auto;
+    top: 250px;
+    height: 600px;
+    text-align: center;
+}    
+
+.location h2 {
+    position: relative;
+    top: 80px;
+}
+
+.locontainer {
+    position: relative;
+    top: 100px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.losquare {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    display: inline-block;
+    margin: 15px 20px;
+}
+
+.losquare h3 {
+    margin-top: 50px;
+}
+
+footer {
+    height: 300px;
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+
+.company {
+    height: 200px;
+}
+
+.copyright {
+    width: 15%;
+    height: 100px;
+    margin: 0 0 0 20px;
+}
