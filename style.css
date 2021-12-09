@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .banner {
-    background-image: url(/Images/img-mission-background.webp);
+    background-image: url(Images/img-mission-background.webp);
     background-repeat: no-repeat;
     height: 700px;
     max-width: 1200px;
@@ -112,7 +112,7 @@ nav a:hover {
 
 .location {
     position: relative;
-    background-image: url(/Images/img-locations-background.jpg);
+    background-image: url(Images/img-locations-background.jpg);
     background-repeat: no-repeat;
     max-width: 1200px;
     margin: 0 auto;
